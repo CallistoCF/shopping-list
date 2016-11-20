@@ -80,7 +80,7 @@ describe('Shopping List', function() {
                 storage.items[3].name.should.equal('Kale');
                 done();
             });
-    }););
+    });
     it('should POST without body data');
     it('should POST with something other than valid JSON');
     it('should PUT without an ID in the endpoint');
