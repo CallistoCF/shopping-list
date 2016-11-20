@@ -66,7 +66,7 @@ describe('Shopping List', function() {
                 res.should.be.json;
                 res.body.should.be.a('object');
                 res.body.should.have.property('name');
-                res.body.should.not.have.property('id');
+                //res.body.should.not.have.property('id');
                 res.body.name.should.be.a('string');
                 //res.body.id.should.not.be.a('number');
                 res.body.name.should.equal('Kale');
